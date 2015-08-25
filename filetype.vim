@@ -8,5 +8,5 @@ if exists("did_load_filetypes")
     finish
 endif
 augroup filetypedetect
-    au! BufNewFile,BufRead *.crn stf cornell
+    au! BufNewFile,BufRead *.crn setf cornell
 augroup END
